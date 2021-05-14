@@ -44,7 +44,7 @@ function Cards(){
                 <Card.Body>
                 <Card.Title>Postmates Package</Card.Title>
                 <Card.Text>
-                    This is a project I had to complete in order to aid other people 
+                    I made a node package that aimed to make it easier for people using the Postmates' API.
                     
                 </Card.Text>
                 <Card.Link href="https://github.com/DestinyLuong/postmatesClient" target="_blank">GitHub Page (Check it out here!)</Card.Link>

@@ -20,11 +20,11 @@ function App() {
         <Router>
         <NavBar />
         <Switch>
-          <Route path="/portfolio" exact component={() => <HomePage />} />
-          <Route path="/projects" exact component={() => <Projects />} />
-          <Route path="/contact" exact component={() => <Contact />} />
+          <Route path="/HomePage.js" exact component={() => <HomePage />} />
+          <Route path="/Projects.js" exact component={() => <Projects />} />
+          <Route path="/Contact.js" exact component={() => <Contact />} />
         </Switch>
-      </Router>
+      </Router> 
    
       </div>
      
