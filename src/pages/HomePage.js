@@ -1,7 +1,9 @@
-import React, { Component } from 'react';
-import logo from '../logo.svg';
-//import '../App.css';
+import React from 'react';
+//import logo from '../logo.svg';
+import '../App.css';
+import NavBar from '../components/NavBar';
 import {Figure} from 'react-bootstrap';
+import { MyPlanet } from '../components/Planet';
 
 function HomePage() {
 
@@ -11,27 +13,21 @@ function HomePage() {
             <h1 className= "Title">
                 Destiny Luong
             </h1>
+            
         </div> 
+        <MyPlanet/> 
         <div>
-            <Figure>
-                <Figure.Image
-                    width={500}
-                    height={500}
-                    alt="171x180"
-                    src={logo}
-                />
-                <Figure.Caption>
-                    Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </Figure.Caption>
-            </Figure>
-        </div>
-          
-       
+            <figure className="figure">
+                <img src="../profile.jpg" className="prof" alt="..."></img>
+                <figcaption className="figure-caption">A caption for the above image.</figcaption>
+            </figure>
+        </div>         
     </div>
  
       
     );
   }
   
+
   export default HomePage;
   

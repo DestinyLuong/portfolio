@@ -4,14 +4,14 @@ import NavBar from './components/NavBar';
 import Projects from './pages/Projects';
 import HomePage from './pages/HomePage';
 import Contact from './pages/Contact';
+import React from 'react';
 import {
   BrowserRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-
+//import 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css';
 
 
 function App() {
