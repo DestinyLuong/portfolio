@@ -1,7 +1,7 @@
 import { Planet } from 'react-planet'
 import {Figure} from './Figure';
 import {Button} from 'bootstrap';
-import './App.css';
+import '../App.css';
 
 export function MyPlanet() {
     return (

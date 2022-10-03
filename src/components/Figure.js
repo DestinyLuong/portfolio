@@ -1,6 +1,9 @@
-function NavBar() {
+export function Figure() {
     return (
-        <figure className="figure">
-            <img src="../profile.jpg" className="prof" alt="..."></img>
-        </figure>
+        <div>
+            <figure className="figure">
+                <img src="../profile.jpg" className="prof" alt="..."></img>
+            </figure>
+        </div>  
     );
+}
