@@ -19,16 +19,17 @@ function App() {
     <div className="App">
         <Router>
         <NavBar />
-        <Switch>
-          <Route path="/HomePage.js" exact component={() => <HomePage />} />
-          <Route path="/Projects.js" exact component={() => <Projects />} />
-          <Route path="/Contact.js" exact component={() => <Contact />} />
-        </Switch>
+        <HomePage/>
       </Router> 
    
       </div>
      
   );
+  /*<Switch>
+          <Route path="/HomePage.js" exact component={() => <HomePage />} />
+          <Route path="/Projects.js" exact component={() => <Projects />} />
+          <Route path="/Contact.js" exact component={() => <Contact />} />
+        </Switch>*/ 
 }
 
 export default App;
