@@ -6,7 +6,7 @@ function Projects() {
     <div className="Projects">
         <div className= "TitleDiv">
             <h1 className= "Title">
-                Portfolio
+                Projects
             </h1>
         </div> 
        <Cards/>

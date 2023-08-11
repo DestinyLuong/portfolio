@@ -45,5 +45,27 @@
 }
 
 .figure{
-  padding: 3rem;
+  padding: 1.5rem;
+}
+
+#profile{
+  border-radius: 10rem;
+}
+
+.card-columns {
+  padding: 1rem;
+  margin: 2rem;
+}
+
+.figure-caption{
+  padding-top: 1rem;
+
+}
+
+.profile-col{
+  text-align: center;
+}
+
+.figure-caption{
+text-align: left
 }

@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import logo from '../logo.svg';
+import profpic from '../images/profpic.jpg';
 //import '../App.css';
-import {Figure} from 'react-bootstrap';
+import {CardColumns, Figure} from 'react-bootstrap';
 
 function HomePage() {
 
@@ -13,17 +14,22 @@ function HomePage() {
             </h1>
         </div> 
         <div>
-            <Figure>
-                <Figure.Image
-                    width={500}
-                    height={500}
-                    alt="171x180"
-                    src={logo}
-                />
-                <Figure.Caption>
-                    Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </Figure.Caption>
-            </Figure>
+                <Figure className='prof'>
+                    <Figure.Image
+                        id="profile"
+                        width={250}
+                        height={250}
+                        alt="171x180"
+                        src={profpic}
+                        
+                    />
+                    <div className='caption'>
+                        <Figure.Caption>
+                            Hello, my name is Destiny! I'm a senior EECS major at UC Berkeley.
+                            My dream is to combine my interests in tech and art to create something amazing!
+                        </Figure.Caption>
+                    </div>
+                </Figure>
         </div>
           
        

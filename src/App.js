@@ -20,6 +20,8 @@ function App() {
         <Router>
         <NavBar />
         <HomePage/>
+        <Projects/>
+        <Contact/>
       </Router> 
    
       </div>
