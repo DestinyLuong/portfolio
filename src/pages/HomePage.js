@@ -9,6 +9,7 @@ function HomePage() {
     return (
       <div className="HomePage">
         <div className= "TitleDiv">
+            <h1 className="construct">Apologies this page is under construction!</h1>
             <h1 className= "Title">
                 Destiny Luong
             </h1>
