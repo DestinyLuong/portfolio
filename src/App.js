@@ -4,6 +4,8 @@ import NavBar from './components/NavBar';
 import Projects from './pages/Projects';
 import HomePage from './pages/HomePage';
 import Contact from './pages/Contact';
+import {Nav, Navbar} from 'react-bootstrap';
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -18,10 +20,23 @@ function App() {
   return (
     <div className="App">
         <Router>
-        <NavBar />
-        <HomePage/>
-        <Projects/>
-        <Contact/>
+        <div className="Navbar">
+           <navbar>
+                <Navbar className="nav justify-content-center" variant="dark">
+                    <Navbar.Brand href="/portfolio">Destiny's Portfolio</Navbar.Brand>
+                    <Nav className="mr-auto">
+                    <Nav.Link href="/portfolio">Home</Nav.Link>
+                    <Nav.Link href="#projects">Projects</Nav.Link>
+                    <Nav.Link href="#contacts">Contacts</Nav.Link>
+                    </Nav>
+                </Navbar>
+            </navbar>
+        </div>
+        <div id="Pages">
+          <HomePage/>
+          <Projects/>
+          <Contact/>
+        </div>
       </Router> 
    
       </div>

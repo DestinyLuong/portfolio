@@ -4,8 +4,8 @@ import React from 'react';
 function Projects() {
     return( 
     <div className="Projects">
-        <div className= "TitleDiv">
-            <h1 className= "Title">
+        <div className= "HeadingDiv">
+            <h1 className= "Heading" id="projects">
                 Projects
             </h1>
         </div> 

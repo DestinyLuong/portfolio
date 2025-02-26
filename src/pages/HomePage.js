@@ -8,29 +8,42 @@ function HomePage() {
 
     return (
       <div className="HomePage">
-        <div className= "TitleDiv">
-            <h1 className="construct">Apologies this page is under construction!</h1>
-            <h1 className= "Title">
-                Destiny Luong
-            </h1>
-        </div> 
-        <div>
-                <Figure className='prof'>
-                    <Figure.Image
-                        id="profile"
-                        width={250}
-                        height={250}
-                        alt="171x180"
-                        src={profpic}
+        <div className='Bio'>
+                <div className="bioDiv">
+                    <div className="bioRow">
+                        <div className="profDiv">
+                            <Figure className='prof'>
+                            <Figure.Image
+                                id="profile"
+                                width={250}
+                                height={250}
+                                alt="171x180"
+                                src={profpic}
                         
-                    />
-                    <div className='caption'>
-                        <Figure.Caption>
-                            Hello, my name is Destiny! I'm a senior EECS major at UC Berkeley.
-                            My dream is to combine my interests in tech and art to create something amazing!
-                        </Figure.Caption>
+                            />
+                            </Figure>
+                        </div>
+                        <div className="infoDiv">
+                                <div className= "TitleDiv">
+                                    <h1 className= "Title">
+                                        Destiny Luong
+                                    </h1>
+                                </div> 
+                                <div className='captionDiv'>
+                                <Figure>
+                                <Figure.Caption color="black">
+                                    Hello, my name is Destiny! I'm a senior EECS major at UC Berkeley.
+                                    My dream is to combine my interests in tech and art to create something amazing!
+                                    Hello, my name is Destiny! I'm a senior EECS major at UC Berkeley.
+                                    My dream is to combine my interests in tech and art to create something amazing!
+                                    Hello, my name is Destiny! I'm a senior EECS major at UC Berkeley.
+                                    My dream is to combine my interests in tech and art to create something amazing!
+                                </Figure.Caption>
+                                </Figure>
+                                </div>
+                        </div>
                     </div>
-                </Figure>
+                </div>
         </div>
           
        

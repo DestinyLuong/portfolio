@@ -6,9 +6,9 @@ function Contact() {
 
   return (
     <div className="Contact">
-       <div className= "TitleDiv">
-            <h1 className= "Title">
-                Contact
+       <div className= "HeadingDiv">
+            <h1 className= "Heading" id="contacts">
+                Contacts
             </h1>
         </div> 
         <div className= "Body">

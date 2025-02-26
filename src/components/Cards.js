@@ -3,7 +3,72 @@ import {CardColumns, Card} from 'react-bootstrap';
 function Cards(){
     return (
         <CardColumns>
-            <Card>
+             <Card id="cards">
+                <Card.Body>
+                <Card.Title>CS Central</Card.Title>
+                <Card.Text>
+                  When I taught at Berkeley's CS Class 
+                </Card.Text>
+                <Card.Link href= "https://destinyluong.github.io/cs-central/" target="_blank"> 
+                Here's a video (Check it out here!)</Card.Link>
+                <Card.Text>
+                    <small className="text-muted">Last updated 3 mins ago</small>
+                </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card id="cards">
+                <Card.Body>
+                <Card.Title> Chocolate Melting Animation Project</Card.Title>
+                <Card.Text>
+                  When I taught at Berkeley's CS Class 
+                </Card.Text>
+                <Card.Link href= "https://destinyluong.github.io/cs-central/" target="_blank"> 
+                Here's a video (Check it out here!)</Card.Link>
+                <Card.Text>
+                    <small className="text-muted">Last updated 3 mins ago</small>
+                </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card id="cards">
+                <Card.Body>
+                <Card.Title> Bubble Animation </Card.Title>
+                <Card.Text>
+                  When I taught at Berkeley's CS Class 
+                </Card.Text>
+                <Card.Link href= "https://destinyluong.github.io/cs-central/" target="_blank"> 
+                Here's a video (Check it out here!)</Card.Link>
+                <Card.Text>
+                    <small className="text-muted">Last updated 3 mins ago</small>
+                </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card id="cards">
+                <Card.Body>
+                <Card.Title> Security Design </Card.Title>
+                <Card.Text>
+                  When I taught at Berkeley's CS Class 
+                </Card.Text>
+                <Card.Link href= "https://destinyluong.github.io/cs-central/" target="_blank"> 
+                Here's a video (Check it out here!)</Card.Link>
+                <Card.Text>
+                    <small className="text-muted">Last updated 3 mins ago</small>
+                </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card id="cards">
+                <Card.Body>
+                <Card.Title> khk</Card.Title>
+                <Card.Text>
+                  When I taught at Berkeley's CS Class 
+                </Card.Text>
+                <Card.Link href= "https://destinyluong.github.io/cs-central/" target="_blank"> 
+                Here's a video (Check it out here!)</Card.Link>
+                <Card.Text>
+                    <small className="text-muted">Last updated 3 mins ago</small>
+                </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card id="cards">
                 <Card.Img variant="top" src="holder.js/100px160" />
                 <Card.Body>
                 <Card.Title>ASEC 2/5</Card.Title>
@@ -15,7 +80,7 @@ function Cards(){
                 <Card.Link href="https://cn-combats-covid.glitch.me/" target="_blank"> CodeNation Awards Page (Check it out here!)</Card.Link>
                 </Card.Body>
             </Card>
-            <Card className="p-2">
+            <Card id="cards">
             <Card.Title>Build Your Own World</Card.Title>
                 <blockquote className="blockquote mb-0 card-body">
                 <p>
@@ -28,7 +93,7 @@ function Cards(){
                 </footer>
                 </blockquote>
             </Card>
-            <Card>
+            <Card id="cards">
                 <Card.Body>
                 <Card.Title>Match</Card.Title>
                 <Card.Text>
@@ -39,7 +104,7 @@ function Cards(){
                 </Card.Text>
                 </Card.Body>
             </Card>
-            <Card>
+            <Card id="cards">
                 <Card.Img variant="top" src="holder.js/100px160" />
                 <Card.Body>
                 <Card.Title>Postmates Package</Card.Title>
@@ -50,7 +115,7 @@ function Cards(){
                 <Card.Link href="https://github.com/DestinyLuong/postmatesClient" target="_blank">GitHub Page (Check it out here!)</Card.Link>
                 </Card.Body>
             </Card>
-            <Card className="text-center">
+            <Card id="cards">
                 <Card.Body>
                 <Card.Title>Hog</Card.Title>
                 <Card.Text>
@@ -61,7 +126,7 @@ function Cards(){
                 </Card.Text>
                 </Card.Body>
             </Card>
-            <Card className="text-right">
+            <Card id="cards">
                 <Card.Img src="holder.js/100px160" />
                 <blockquote className="blockquote mb-0 card-body">
                 <p>
@@ -70,7 +135,7 @@ function Cards(){
                 <Card.Link href="https://docs.google.com/presentation/d/14asj3gxT19VrS6-KCF8Aj0kBLy06NgdcWRFa3-SUTmw/edit?usp=sharing" target="_blank"> Presentation (Check it out here!)</Card.Link>
                 </blockquote>
             </Card>
-            <Card>
+            <Card id="cards">
                 <Card.Body>
                 <Card.Title>2048</Card.Title>
                 <Card.Text>
@@ -84,6 +149,7 @@ function Cards(){
                 </Card.Text>
                 </Card.Body>
             </Card>
+            
             
         </CardColumns>
     );
