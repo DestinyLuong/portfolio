@@ -5,7 +5,7 @@ function Projects() {
     return( 
     <div className="Projects">
         <div className= "HeadingDiv">
-            <h1 className= "Heading" id="projects">
+            <h1 className="Heading" id="projects">
                 Projects
             </h1>
         </div> 
@@ -13,6 +13,7 @@ function Projects() {
     </div>
         
     );
+
 }
 
 export default Projects;
