@@ -39,17 +39,101 @@
   }
 }
 
-.TitleDiv {
-  margin-top: 2rem;
-  padding: 2rem;
+
+.Title{
+  color: #043565;
+  font-family: Roboto;
+  font-weight: 700;
+  text-align: left;
+}
+
+
+.Heading{
+  color: #043565;
+  font-family: Roboto;
+  font-weight: 700;
+  padding-top: 5%;
+  padding-left: 5%;
+  text-align: left;
 }
 
 .figure{
-  padding: 3rem;
+  padding: 1.5rem;
 }
 
-.prof{
-  border-radius: 50%;
-  height: 20%;
-  width: 20%;
+#profile{
+  border-radius: 3rem;
+}
+
+.card-columns {
+  padding: 1rem;
+  margin: 2rem;
+}
+
+.figure-caption{
+  font-family: Roboto;
+  font-weight: 500;
+  color: black;
+
+}
+
+.profile-col{
+  text-align: center;
+}
+
+.construct{
+  font-size: 90px;
+  padding-top: 20px;
+  padding-bottom: 500px;
+  text-align: center;
+
+}
+.nav{
+  background-color: #043565;
+}
+
+.nav-link{
+  color: white;
+}
+
+
+.bioRow{
+  margin: 3rem;
+  border-radius: 50px;
+  display: flex;
+  background-color: #FCF9D1;
+  justify-content: center;
+  width: 65%;
+  padding: 2rem;
+}
+
+.bioDiv{
+  display: flex;
+  justify-content: center;
+}
+
+
+.infoDiv{
+  width: 65%;
+  text-align: left;
+  margin-left: 5rem;
+  margin-top: 3rem;
+}
+
+.TitleDiv{
+  margin-left: 1.5rem;
+}
+
+.profDiv{
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.Navbar{
+  position: sticky;
+  top: 0px;
+}
+
+#cards{
+  position: static;
 }

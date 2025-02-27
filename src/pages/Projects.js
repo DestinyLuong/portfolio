@@ -4,15 +4,16 @@ import React from 'react';
 function Projects() {
     return( 
     <div className="Projects">
-        <div className= "TitleDiv">
-            <h1 className= "Title">
-                Portfolio
+        <div className= "HeadingDiv">
+            <h1 className="Heading" id="projects">
+                Projects
             </h1>
         </div> 
        <Cards/>
     </div>
         
     );
+
 }
 
 export default Projects;
