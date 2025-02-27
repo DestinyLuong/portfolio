@@ -2,15 +2,16 @@ import {CardColumns, Card} from 'react-bootstrap';
 
 function Cards(){
     return (
-        <CardColumns>
+        <div className='card-columns'>
              <Card id="cards">
                 <Card.Body>
                 <Card.Title>CS Central</Card.Title>
                 <Card.Text>
-                  When I taught at Berkeley's CS Class 
+                 I taught a UC Berkeley CS Class  over the summer for highschoolers who were transitioning to college,
+                 We wrote lessons and homework problems which were then uploaded to this website.
                 </Card.Text>
                 <Card.Link href= "https://destinyluong.github.io/cs-central/" target="_blank"> 
-                Here's a video (Check it out here!)</Card.Link>
+               CS Central Website</Card.Link>
                 <Card.Text>
                     <small className="text-muted">Last updated 3 mins ago</small>
                 </Card.Text>
@@ -80,7 +81,7 @@ function Cards(){
                 <Card.Link href="https://cn-combats-covid.glitch.me/" target="_blank"> CodeNation Awards Page (Check it out here!)</Card.Link>
                 </Card.Body>
             </Card>
-            <Card id="cards">
+            <Card className="p-2" id="cards">
             <Card.Title>Build Your Own World</Card.Title>
                 <blockquote className="blockquote mb-0 card-body">
                 <p>
@@ -115,7 +116,7 @@ function Cards(){
                 <Card.Link href="https://github.com/DestinyLuong/postmatesClient" target="_blank">GitHub Page (Check it out here!)</Card.Link>
                 </Card.Body>
             </Card>
-            <Card id="cards">
+            <Card className="text-center" id="cards">
                 <Card.Body>
                 <Card.Title>Hog</Card.Title>
                 <Card.Text>
@@ -126,7 +127,7 @@ function Cards(){
                 </Card.Text>
                 </Card.Body>
             </Card>
-            <Card id="cards">
+            <Card className="text-right" id="cards">
                 <Card.Img src="holder.js/100px160" />
                 <blockquote className="blockquote mb-0 card-body">
                 <p>
@@ -140,7 +141,6 @@ function Cards(){
                 <Card.Title>2048</Card.Title>
                 <Card.Text>
                   For one of my CS classes we had to create a game of 2048, it was really fun but also really hard. 
-                  
                 </Card.Text>
                 <Card.Link href= "https://drive.google.com/file/d/1tuiGQ5lJLsv7AjBqfo38SVa4Blx2lp82/view?usp=sharing" target="_blank"> 
                 Here's a video (Check it out here!)</Card.Link>
@@ -151,7 +151,7 @@ function Cards(){
             </Card>
             
             
-        </CardColumns>
+        </div>
     );
 }
 

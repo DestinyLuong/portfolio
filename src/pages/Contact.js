@@ -1,6 +1,6 @@
 import React from 'react';
 //import NavBar from '../components/NavBar';
-import {Figure, Col} from 'react-bootstrap';
+import {Figure} from 'react-bootstrap';
 
 function Contact() {
 

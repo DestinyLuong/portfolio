@@ -1,3 +1,5 @@
+
+import CardGroup from '../components/CardGroup';
 import Cards from '../components/Cards';
 import React from 'react';
 
@@ -9,9 +11,8 @@ function Projects() {
                 Projects
             </h1>
         </div> 
-       <Cards/>
+       <CardGroup/>
     </div>
-        
     );
 
 }

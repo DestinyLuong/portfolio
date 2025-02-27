@@ -68,6 +68,7 @@
 .card-columns {
   padding: 1rem;
   margin: 2rem;
+
 }
 
 .figure-caption{
@@ -132,8 +133,11 @@
 .Navbar{
   position: sticky;
   top: 0px;
+
 }
 
 #cards{
   position: static;
+  margin: 1rem;
+  
 }

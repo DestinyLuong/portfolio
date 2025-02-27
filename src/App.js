@@ -1,6 +1,5 @@
 import './App.css';
 import React from 'react';
-import NavBar from './components/NavBar';
 import Projects from './pages/Projects';
 import HomePage from './pages/HomePage';
 import Contact from './pages/Contact';
@@ -8,8 +7,6 @@ import {Nav, Navbar} from 'react-bootstrap';
 
 import {
   BrowserRouter as Router,
-  Switch,
-  Route
 } from "react-router-dom";
 
 
@@ -18,16 +15,14 @@ function App() {
     <div className="App">
         <Router>
         <div className="Navbar">
-           <navbar>
-                <Navbar className="nav justify-content-center" variant="dark">
-                    <Navbar.Brand href="/portfolio">Destiny's Portfolio</Navbar.Brand>
-                    <Nav className="mr-auto">
+              <Navbar className="nav justify-content-center" variant="dark">
+                  <Navbar.Brand href="/portfolio">Destiny's Portfolio</Navbar.Brand>
+                  <Nav className="mr-auto"  id="navlinks">
                     <Nav.Link href="/portfolio">Home</Nav.Link>
                     <Nav.Link href="#projects">Projects</Nav.Link>
                     <Nav.Link href="#contacts">Contacts</Nav.Link>
-                    </Nav>
-                </Navbar>
-            </navbar>
+                  </Nav>
+              </Navbar>
         </div>
         <div id="Pages">
           <HomePage/>

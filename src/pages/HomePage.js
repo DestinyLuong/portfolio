@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
-import logo from '../logo.svg';
+import React from 'react';
 import profpic from '../images/profpic.jpg';
 //import '../App.css';
-import {CardColumns, Figure} from 'react-bootstrap';
+import {Figure} from 'react-bootstrap';
 
 function HomePage() {
 
@@ -33,11 +32,7 @@ function HomePage() {
                                 <Figure>
                                 <Figure.Caption color="black">
                                     Hello, my name is Destiny! I'm a senior EECS major at UC Berkeley.
-                                    My dream is to combine my interests in tech and art to create something amazing!
-                                    Hello, my name is Destiny! I'm a senior EECS major at UC Berkeley.
-                                    My dream is to combine my interests in tech and art to create something amazing!
-                                    Hello, my name is Destiny! I'm a senior EECS major at UC Berkeley.
-                                    My dream is to combine my interests in tech and art to create something amazing!
+                                    My dream is to combine my interests in tech and art to create something amazing! 
                                 </Figure.Caption>
                                 </Figure>
                                 </div>
