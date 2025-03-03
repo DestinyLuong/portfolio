@@ -51,9 +51,6 @@ function CardGroup() {
                   </Card.Text>
                   <Card.Link href= "https://drive.google.com/file/d/1tuiGQ5lJLsv7AjBqfo38SVa4Blx2lp82/view?usp=sharing" target="_blank"> 
                   Here's a video (Check it out here!)</Card.Link>
-                  <Card.Text>
-                      <small className="text-muted">Last updated 3 mins ago</small>
-                  </Card.Text>
                   </Card.Body>
               </Card>
           </Col>
@@ -68,9 +65,6 @@ function CardGroup() {
                   </Card.Text>
                   <Card.Link href= "https://docs.google.com/presentation/d/1iECoPCpTXc7NfQMW05-0CKL1FSZNa8qnEwQX6gJQa28/edit?usp=sharing" target="_blank"> 
                   Security Design Presentation</Card.Link>
-                  <Card.Text>
-                      <small className="text-muted">Last updated 3 mins ago</small>
-                  </Card.Text>
                   </Card.Body>
               </Card>
               <Card id="cards">
@@ -85,61 +79,67 @@ function CardGroup() {
                   </Card.Body>
               </Card>
               <Card className="p-2" id="cards">
-              <Card.Title>Build Your Own World</Card.Title>
-                  <blockquote className="blockquote mb-0 card-body">
-                  <p>
-                  
-                  </p>
-                  <footer className="blockquote-footer">
-                      <small className="text-muted">
-                      Someone famous in <cite title="Source Title">Source Title</cite>
-                      </small>
-                  </footer>
-                  </blockquote>
+                <Card.Body>
+                <Card.Title>Working with Curves and Meshes</Card.Title>
+                <Card.Text>
+                  For our computer graphics class, I worked with a partner to create a program that would produce bezier curves and meshes.
+                </Card.Text>
+                <Card.Link href= "https://cal-cs184-student.github.io/hw-webpages-sp24-DestinyLuong/hw2/index.html" target="_blank"> 
+               Paper on Curves and Meshes</Card.Link>
+                </Card.Body>
               </Card>
               <Card id="cards">
-                  <Card.Body>
-                  <Card.Title>Match</Card.Title>
-                  <Card.Text>
-                  I made a match game honoring the CodeNation staff and volunteers.
-                  </Card.Text>
-                  <Card.Text>
-                      <small className="text-muted">Last updated 3 mins ago</small>
-                  </Card.Text>
-                  </Card.Body>
-              </Card>
+                <Card.Body>
+                <Card.Title>Memory Match</Card.Title>
+                <Card.Text>
+                  I attended a non-profit program called Code Nation, and for our final project,
+                  I designed and created a match game to honor volunteers we worked with. 
+                </Card.Text>
+                <Card.Link href= "https://drive.google.com/file/d/1tuiGQ5lJLsv7AjBqfo38SVa4Blx2lp82/view?usp=sharing" target="_blank"> 
+                Memory Match Video</Card.Link>
+                </Card.Body>
+            </Card>
           </Col>
 
           <Col key={2}>
-          <Card id="cards">
-                  <Card.Body>
-                  <Card.Title>Postmates Package</Card.Title>
-                  <Card.Text>
-                      I made a node package that aimed to make it easier for people using the Postmates' API.
-                      
-                  </Card.Text>
-                  <Card.Link href="https://github.com/DestinyLuong/postmatesClient" target="_blank">GitHub Page (Check it out here!)</Card.Link>
-                  </Card.Body>
-              </Card>
               <Card className="text-center" id="cards">
                   <Card.Body>
-                  <Card.Title>Hog</Card.Title>
+                  <Card.Title>UniRanker</Card.Title>
                   <Card.Text>
-                      Project for CS61A class at Berkeley completed by a partner and I.
+                     I worked with 2 others on a website aimed at providing high schoolers and college students to compare and
+                     comment on different aspects of University life.
                   </Card.Text>
-                  <Card.Text>
-                      <small className="text-muted">Last updated 3 mins ago</small>
-                  </Card.Text>
+                  <Card.Link href="https://github.com/ahmadmuradmalik/UniRanker/tree/main" target="_blank"> UniRanker Github</Card.Link>
                   </Card.Body>
               </Card>
               <Card className="text-right" id="cards">
-                  <blockquote className="blockquote mb-0 card-body">
-                  <p>
-                  During my Postmates Internship I was tasked with making an node js package for users who wanted 
-                  to use the Postmates API more easily. I also helped to write some of their documentation in their developer docs.
-                  </p>
-                  <Card.Link href="https://docs.google.com/presentation/d/14asj3gxT19VrS6-KCF8Aj0kBLy06NgdcWRFa3-SUTmw/edit?usp=sharing" target="_blank"> Presentation (Check it out here!)</Card.Link>
-                  </blockquote>
+              <Card.Body>
+                  <Card.Title>Postmates Package</Card.Title>
+                  <Card.Text>
+                    During my Postmates Internship I was tasked with making an node js package for users who wanted 
+                    to use the Postmates API more easily. I also helped to write some of their documentation in their developer docs.
+                  </Card.Text>
+                  <Card.Link href="https://docs.google.com/presentation/d/14asj3gxT19VrS6-KCF8Aj0kBLy06NgdcWRFa3-SUTmw/edit?usp=sharing" target="_blank"> Internship Presenation (Check it out here!)</Card.Link>
+                  <Card.Link href="https://github.com/DestinyLuong/postmatesClient" target="_blank"> Postmates Client Github</Card.Link>
+                  </Card.Body>
+              </Card>
+              <Card className="text-right" id="cards">
+              <Card.Body>
+                  <Card.Title>Raytracing and Lighting</Card.Title>
+                  <Card.Text>
+                    Fo
+                  </Card.Text>
+                  <Card.Link href="https://cal-cs184-student.github.io/hw-webpages-sp24-DestinyLuong/hw3/index.html" target="_blank"> Paper on Sampling Techniques (Check it out here!)</Card.Link>
+                  </Card.Body>
+              </Card>
+              <Card className="text-right" id="cards">
+              <Card.Body>
+                  <Card.Title>Cloth Simulations</Card.Title>
+                  <Card.Text>
+                    I worked with a partner to recreate how cloth when pinned, draped, and when colliding with other objects.
+                  </Card.Text>
+                  <Card.Link href="https://cal-cs184-student.github.io/hw-webpages-sp24-DestinyLuong/hw4/index.html" target="_blank"> Paper on Sampling Techniques (Check it out here!)</Card.Link>
+                  </Card.Body>
               </Card>
           </Col>
         

@@ -8,7 +8,7 @@ function Projects() {
     <div className="Projects">
         <div className= "HeadingDiv">
             <h1 className="Heading" id="projects">
-                Projects
+                PROJECTS
             </h1>
         </div> 
        <CardGroup/>

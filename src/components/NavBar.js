@@ -31,12 +31,16 @@ function NavBar() {
             <div className="Navbar">
            <navbar>
                 <Navbar className="nav justify-content-center" variant="dark">
+                    <div className='nHome'>
                     <Navbar.Brand href="/portfolio">Destiny's Portfolio</Navbar.Brand>
+                    </div>
+                    <div className='nLinks'>
                     <Nav className="mr-auto">
-                    <Nav.Link href="/portfolio">Home</Nav.Link>
-                    <Nav.Link href="/projects">Projects</Nav.Link>
-                    <Nav.Link href="/contacts">Contact</Nav.Link>
+                    <Nav.Link href="/portfolio">HOME</Nav.Link>
+                    <Nav.Link href="/projects">PROJECTS</Nav.Link>
+                    <Nav.Link href="/contacts">CONTACTS</Nav.Link>
                     </Nav>
+                    </div>
                 </Navbar>
             </navbar>
             </div>

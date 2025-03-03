@@ -122,9 +122,6 @@ function Cards(){
                 <Card.Text>
                     Project for CS61A class at Berkeley completed by a partner and I.
                 </Card.Text>
-                <Card.Text>
-                    <small className="text-muted">Last updated 3 mins ago</small>
-                </Card.Text>
                 </Card.Body>
             </Card>
             <Card className="text-right" id="cards">
@@ -138,15 +135,13 @@ function Cards(){
             </Card>
             <Card id="cards">
                 <Card.Body>
-                <Card.Title>2048</Card.Title>
+                <Card.Title>Memory Match</Card.Title>
                 <Card.Text>
-                  For one of my CS classes we had to create a game of 2048, it was really fun but also really hard. 
+                  I attended a non-profit program called Code Nation, and for our final project,
+                  I designed and created a match game to honor volunteers we worked with. 
                 </Card.Text>
                 <Card.Link href= "https://drive.google.com/file/d/1tuiGQ5lJLsv7AjBqfo38SVa4Blx2lp82/view?usp=sharing" target="_blank"> 
                 Here's a video (Check it out here!)</Card.Link>
-                <Card.Text>
-                    <small className="text-muted">Last updated 3 mins ago</small>
-                </Card.Text>
                 </Card.Body>
             </Card>
             

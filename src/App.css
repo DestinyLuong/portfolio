@@ -42,16 +42,14 @@
 
 .Title{
   color: #043565;
-  font-family: Roboto;
-  font-weight: 700;
+  font-family: "Plaster", system-ui;
   text-align: left;
 }
 
 
 .Heading{
   color: #043565;
-  font-family: Roboto;
-  font-weight: 700;
+  font-family: "Plaster";
   padding-top: 5%;
   padding-left: 5%;
   text-align: left;
@@ -72,8 +70,8 @@
 }
 
 .figure-caption{
-  font-family: Roboto;
-  font-weight: 500;
+  font-family: "Madimi One";
+  font-size: 15px;
   color: black;
 
 }
@@ -90,19 +88,23 @@
 
 }
 .nav{
-  background-color: #043565;
+    background-color: #043565;
+    padding: 10px 25px 10px 25px;
+    border-radius: 50px;
 }
 
 .nav-link{
   color: white;
+  font-family: Roboto;
 }
+
 
 
 .bioRow{
   margin: 3rem;
   border-radius: 50px;
   display: flex;
-  background-color: #FCF9D1;
+  background-color: #CFD6EA;
   justify-content: center;
   width: 65%;
   padding: 2rem;
@@ -126,19 +128,32 @@
 }
 
 .profDiv{
-  margin-top: 1rem;
+  margin-top: 4%;
   margin-left: 1rem;
 }
 
 .Navbar{
   position: sticky;
   top: 0px;
+  display: flex;
+  justify-content: center;
 
 }
-
 
 #cards{
   position: static;
   margin: 1rem;
   
+}
+
+@media only screen and (max-width: 1300px) {
+.bioRow{
+  width: 100%
+}
+}
+
+@media only screen and (max-width: 900px) {
+.bioRow{
+  width: 100%
+}
 }

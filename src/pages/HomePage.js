@@ -25,7 +25,7 @@ function HomePage() {
                         <div className="infoDiv">
                                 <div className= "TitleDiv">
                                     <h1 className= "Title">
-                                        Destiny Luong
+                                        DESTINY LUONG
                                     </h1>
                                 </div> 
                                 <div className='captionDiv'>

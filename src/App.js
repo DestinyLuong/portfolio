@@ -16,12 +16,16 @@ function App() {
         <Router>
         <div className="Navbar">
               <Navbar className="nav justify-content-center" variant="dark">
+              <div className='nHome'>
                   <Navbar.Brand href="/portfolio">Destiny's Portfolio</Navbar.Brand>
+              </div>
+              <div className='nLinks'>
                   <Nav className="mr-auto"  id="navlinks">
-                    <Nav.Link href="/portfolio">Home</Nav.Link>
-                    <Nav.Link href="#projects">Projects</Nav.Link>
-                    <Nav.Link href="#contacts">Contacts</Nav.Link>
+                    <Nav.Link href="/portfolio">HOME</Nav.Link>
+                    <Nav.Link href="#projects">PROJECTS</Nav.Link>
+                    <Nav.Link href="#contacts">CONTACTS</Nav.Link>
                   </Nav>
+                </div>
               </Navbar>
         </div>
         <div id="Pages">
