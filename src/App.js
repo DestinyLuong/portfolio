@@ -3,6 +3,7 @@ import React from 'react';
 import Projects from './pages/Projects';
 import HomePage from './pages/HomePage';
 import Contact from './pages/Contact';
+import Resume from './pages/Resume';
 import {Nav, Navbar} from 'react-bootstrap';
 
 import {
@@ -17,7 +18,7 @@ function App() {
         <div className="Navbar">
               <Navbar className="nav justify-content-center" variant="dark">
               <div className='nHome'>
-                  <Navbar.Brand href="/portfolio">Destiny's Portfolio</Navbar.Brand>
+                  <Navbar.Brand href="/portfolio">DL</Navbar.Brand>
               </div>
               <div className='nLinks'>
                   <Nav className="mr-auto"  id="navlinks">

@@ -1,33 +1,23 @@
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import {Figure} from 'react-bootstrap';
+import sacnas from '../images/sacnas.jpg';
 
 function CardGroup() {
   return (
     <div className="card-columns">
       <Row xs={1} md={3} className="g-4">
           <Col key={0}>
-            <Card id="cards">
+          <Card id="cards">
                   <Card.Body>
                   <Card.Title>CS Central</Card.Title>
                   <Card.Text>
-                    When I taught at Berkeley's CS Class 
+                    I taught a UC Berkeley CS Class  over the summer for highschoolers who were transitioning to college,
+                    We wrote lessons and homework problems which were then uploaded to this website.
                   </Card.Text>
                   <Card.Link href= "https://destinyluong.github.io/cs-central/" target="_blank"> 
-                  Here's a video (Check it out here!)</Card.Link>
-                  <Card.Text>
-                      <small className="text-muted">Last updated 3 mins ago</small>
-                  </Card.Text>
-                  </Card.Body>
-              </Card>
-              <Card id="cards">
-                  <Card.Body>
-                  <Card.Title> Chocolate Melting Animation Project</Card.Title>
-                  <Card.Text>
-                    I had coded an animation of chocolate melting using python on JupyterHub.
-                  </Card.Text>
-                  <Card.Link href= "https://docs.google.com/presentation/d/1Owl5-j9Guap3kZcJTnVZOJ-rOyxeuFHOGxFHGclFd3U/edit?usp=sharing" target="_blank"> 
-                  Presentation on how it was made</Card.Link>
+                  CS Central Website</Card.Link>
                   </Card.Body>
               </Card>
               <Card id="cards">
@@ -45,12 +35,26 @@ function CardGroup() {
               
               <Card id="cards">
                   <Card.Body>
-                  <Card.Title>2048</Card.Title>
+                  <Card.Title>UC Berkeley ACE Lab</Card.Title>
+                  <div className="imageCard">
+                  <a
+                            className="App-link"
+                            href={sacnas}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            float="right"
+                            >
+                            <img max-width= "auto" height= "250px" float="left" src={sacnas}></img>
+                </a>
+                </div>
                   <Card.Text>
-                    For one of my CS classes we had to create a game of 2048, it was really fun but also really hard. 
+                    In 2022 I worked for UC Berkeley's ACE Lab, a research group working to make the CS learning experience
+                    smoother for both students and instructors, through asyncronous online programming projects and questions.
+                    Some of our work included writing coding questions that were to be used online, maintaining the site hosting these questions, 
+                    creating an autograder and cheat detecter to look at student work, and parsing data and feedback 
+                    from the classes where this learning model was implemented. My group and I were able to present our findings at the 
+                    SACNAS conference in Puerto Rico the same year!
                   </Card.Text>
-                  <Card.Link href= "https://drive.google.com/file/d/1tuiGQ5lJLsv7AjBqfo38SVa4Blx2lp82/view?usp=sharing" target="_blank"> 
-                  Here's a video (Check it out here!)</Card.Link>
                   </Card.Body>
               </Card>
           </Col>
@@ -75,10 +79,10 @@ function CardGroup() {
                       It was really fun learning to use maps and graphs in our game. In the end we couldn't fix all the bugs,
                       but we were still able to come together, work hard, and get first place! 
                   </Card.Text>
-                  <Card.Link href="https://cn-combats-covid.glitch.me/" target="_blank"> CodeNation Awards Page (Check it out here!)</Card.Link>
+                  <Card.Link href="https://cn-combats-covid.glitch.me/" target="_blank"> CodeNation Awards Page </Card.Link>
                   </Card.Body>
               </Card>
-              <Card className="p-2" id="cards">
+              <Card id="cards">
                 <Card.Body>
                 <Card.Title>Working with Curves and Meshes</Card.Title>
                 <Card.Text>
@@ -119,7 +123,7 @@ function CardGroup() {
                     During my Postmates Internship I was tasked with making an node js package for users who wanted 
                     to use the Postmates API more easily. I also helped to write some of their documentation in their developer docs.
                   </Card.Text>
-                  <Card.Link href="https://docs.google.com/presentation/d/14asj3gxT19VrS6-KCF8Aj0kBLy06NgdcWRFa3-SUTmw/edit?usp=sharing" target="_blank"> Internship Presenation (Check it out here!)</Card.Link>
+                  <Card.Link href="https://docs.google.com/presentation/d/14asj3gxT19VrS6-KCF8Aj0kBLy06NgdcWRFa3-SUTmw/edit?usp=sharing" target="_blank"> Internship Presenation</Card.Link>
                   <Card.Link href="https://github.com/DestinyLuong/postmatesClient" target="_blank"> Postmates Client Github</Card.Link>
                   </Card.Body>
               </Card>
@@ -127,9 +131,9 @@ function CardGroup() {
               <Card.Body>
                   <Card.Title>Raytracing and Lighting</Card.Title>
                   <Card.Text>
-                    Fo
+                    For this project, I worked with a partner to simulate lighting and raytracing and how they interact with certain scenes and objects.
                   </Card.Text>
-                  <Card.Link href="https://cal-cs184-student.github.io/hw-webpages-sp24-DestinyLuong/hw3/index.html" target="_blank"> Paper on Sampling Techniques (Check it out here!)</Card.Link>
+                  <Card.Link href="https://cal-cs184-student.github.io/hw-webpages-sp24-DestinyLuong/hw3/index.html" target="_blank"> Paper on Sampling Techniques </Card.Link>
                   </Card.Body>
               </Card>
               <Card className="text-right" id="cards">
@@ -138,7 +142,17 @@ function CardGroup() {
                   <Card.Text>
                     I worked with a partner to recreate how cloth when pinned, draped, and when colliding with other objects.
                   </Card.Text>
-                  <Card.Link href="https://cal-cs184-student.github.io/hw-webpages-sp24-DestinyLuong/hw4/index.html" target="_blank"> Paper on Sampling Techniques (Check it out here!)</Card.Link>
+                  <Card.Link href="https://cal-cs184-student.github.io/hw-webpages-sp24-DestinyLuong/hw4/index.html" target="_blank"> Paper on Sampling Techniques</Card.Link>
+                  </Card.Body>
+              </Card>
+              <Card id="cards">
+                  <Card.Body>
+                  <Card.Title> Chocolate Melting Animation Project</Card.Title>
+                  <Card.Text>
+                    I had coded an animation of chocolate melting using python on JupyterHub.
+                  </Card.Text>
+                  <Card.Link href= "https://docs.google.com/presentation/d/1Owl5-j9Guap3kZcJTnVZOJ-rOyxeuFHOGxFHGclFd3U/edit?usp=sharing" target="_blank"> 
+                  Presentation on how it was made</Card.Link>
                   </Card.Body>
               </Card>
           </Col>

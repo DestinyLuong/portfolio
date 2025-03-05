@@ -42,7 +42,7 @@
 
 .Title{
   color: #043565;
-  font-family: "Plaster", system-ui;
+  font-family: "Madimi One", system-ui;
   text-align: left;
 }
 
@@ -70,7 +70,7 @@
 }
 
 .figure-caption{
-  font-family: "Madimi One";
+  font-family: "Varela Round";
   font-size: 15px;
   color: black;
 
@@ -95,9 +95,12 @@
 
 .nav-link{
   color: white;
-  font-family: Roboto;
+  font-family: "Madimi One";
 }
 
+.navbar-brand{
+  font-family: "Plaster";
+}
 
 
 .bioRow{
@@ -156,4 +159,36 @@
 .bioRow{
   width: 100%
 }
+}
+
+.App-link{
+  margin: 5rem;
+}
+
+.card-title{
+  font-family: "Madimi One";
+  color: #043565;
+}
+
+.card-text{
+  font-family: "Varela Round";
+  padding: 10px;
+}
+
+.card-link{
+  font-family: "Varela Round";
+  color: 	#20A39E;
+}
+
+.card-body{
+  background-color:	#CFD6EA;
+}
+
+.imageCard{
+  position: relative;
+  overflow: hidden;
+  display:grid;
+  justify-content: center;
+  margin-top: -14%;
+  margin-bottom: -14%;
 }
